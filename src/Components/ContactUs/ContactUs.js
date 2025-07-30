@@ -66,9 +66,6 @@ const AboutKalathiya = () => {
                         At <span className='text-[#8A49D6] font-semibold uppercase'>Kalathiya Infotech </span>, we are dedicated to providing exceptional service and support to our clients. Whether you have a question about our products, need technical assistance, or want to explore partnership opportunities, we're here to help. Our experienced team is ready to assist you with any inquiries you may have.
                     </p>
                 </div>
-
-
-
             </div>
         </section>
     )
