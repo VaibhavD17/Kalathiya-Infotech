@@ -228,7 +228,7 @@ function JoinOurFamily() {
                 <div className="w-full max-w-[1480px] mx-auto" >
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-y-[30px] sm:gap-4 md:gap-5 w-full">
 
-                        <div className="flex flex-col items-center justify-center bg-white bg-opacity-80 rounded-xl p-2 sm:p-4 shadow-[0_4px_9px_0_rgba(138,73,214,1)] text-center flex-1 h-[175px]">
+                        <div className="flex flex-col items-center justify-center bg-white bg-opacity-80 rounded-xl p-2 sm:p-4 shadow-[0_4px_9px_0_rgba(138,73,214,1)] text-center flex-1 h-[175px]   transition ease-in-out duration-500 hover:scale-105 ">
 
                             <div className="flex items-center justify-center mb-3">
 
@@ -245,7 +245,7 @@ function JoinOurFamily() {
                         </div>
 
 
-                        <div className="flex flex-col items-center justify-center bg-white bg-opacity-80 rounded-xl p-2 sm:p-4 shadow-[0_4px_9px_0_rgba(138,73,214,1)] text-center flex-1 h-[175px]">
+                        <div className="flex flex-col items-center justify-center bg-white bg-opacity-80 rounded-xl p-2 sm:p-4 shadow-[0_4px_9px_0_rgba(138,73,214,1)] text-center flex-1 h-[175px]  transition ease-in-out duration-500 hover:scale-105 ">
 
                             <div className="flex items-center justify-center mb-3">
 
@@ -261,7 +261,7 @@ function JoinOurFamily() {
                             </div>
                         </div>
 
-                        <div className="flex flex-col items-center justify-center bg-white bg-opacity-80 rounded-xl p-2 sm:p-4 shadow-[0_4px_9px_0_rgba(138,73,214,1)] text-center flex-1 h-[175px]">
+                        <div className="flex flex-col items-center justify-center bg-white bg-opacity-80 rounded-xl p-2 sm:p-4 shadow-[0_4px_9px_0_rgba(138,73,214,1)] text-center flex-1 h-[175px]  transition ease-in-out duration-500 hover:scale-105 ">
 
                             <div className="flex items-center justify-center mb-3">
 
@@ -277,7 +277,7 @@ function JoinOurFamily() {
                             </div>
                         </div>
 
-                        <div className="flex flex-col items-center justify-center bg-white bg-opacity-80 rounded-xl p-2 sm:p-4 shadow-[0_4px_9px_0_rgba(138,73,214,1)] text-center flex-1 h-[175px]">
+                        <div className="flex flex-col items-center justify-center bg-white bg-opacity-80 rounded-xl p-2 sm:p-4 shadow-[0_4px_9px_0_rgba(138,73,214,1)] text-center flex-1 h-[175px]  transition ease-in-out duration-500 hover:scale-105 ">
 
                             <div className="flex items-center justify-center mb-3">
 

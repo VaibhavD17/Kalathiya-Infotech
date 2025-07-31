@@ -155,7 +155,7 @@ function AboutAndSkills() {
                     <img src='./Assets/Image/skill-top-bg.png' className=' w-full object-left-top object-cover bg-no-repeat  h-full' />
                 </div>
                 <div className=' w-full h-[41%] absolute bottom-0 left-0 z-[-1]'>
-                    <img src='./Assets/Image/skill-bottom-bg.png' className='  w-full   object-left-bottom object-cover bg-no-repeat h-full' />
+                    <img src='./Assets/Image/skill-bottom-bg.png' className='  w-full   object-left-bottom object-cover bg-no-repeat h-full ' />
                 </div>
 
 

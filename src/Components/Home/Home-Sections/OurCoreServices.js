@@ -79,7 +79,7 @@ function OurCoreServices() {
 }
 
 const ServiceCard = ({ icon, title, description,pathLink }) => (
-    <div className="relative group w-full max-w-md h-full min-h-[500px] bg-[#8a49d6] rounded-[10px_50px_10px_50px] sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl">
+    <div className="relative group w-full max-w-md h-full min-h-[500px] bg-[#8a49d6] p-1 hover:bg-transparent transform transition-all ease-in-out duration-500 rounded-[10px_50px_10px_50px] sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl">
 
         {/* Top-right blob */}
         <div className="absolute w-32 h-32 bg-[#8a49d6] rounded-md opacity-0 group-hover:opacity-100 transition-all duration-500 z-0
@@ -92,7 +92,7 @@ const ServiceCard = ({ icon, title, description,pathLink }) => (
 
 
         {/* Card content */}
-        <div className="bg-[#f0e3ff] rounded-[10px_50px_10px_50px] shadow-[7px_8px_20.6px_-1px_rgba(0,0,0,0.25)] p-6 border-[5px] border-[#8a49d6] flex flex-col items-center text-center h-full transform transition-all duration-500 hover:border-0 z-30">
+        <div className="bg-[#f0e3ff] rounded-[10px_50px_10px_50px] shadow-[7px_8px_20.6px_-1px_rgba(0,0,0,0.25)] p-6  border-[#8a49d6] flex flex-col items-center text-center h-full transform transition-all duration-500 hover:border-0 z-30">
 
             <div className="relative z-10 flex flex-col items-center text-center w-full h-full">
 
