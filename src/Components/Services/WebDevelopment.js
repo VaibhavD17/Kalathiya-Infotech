@@ -84,7 +84,7 @@ const AboutKalathiya = () => {
 
 const DevelopmentServices = () => {
     return (
-        <section className=" w-full " style={{ backgroundImage: `url(./Assets/Image/curve-bg-big.png)`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+        <section  className=" w-full " style={{ backgroundImage: `url(./Assets/Image/curve-bg-big.png)`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
             <div className="max-w-[1480px] w-full mx-auto px-4 py-[100px]" >
                 <div className='max-w-[1260px]'>
                     <h2 className="text-[24px]  font-bold  mb-4">

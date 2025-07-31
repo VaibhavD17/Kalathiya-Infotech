@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
- 
- 
+
+
 const technologies = [
   { name: 'Wordpress', icon: './Assets/Image/icon1.png' },
   { name: 'CodeIgniter', icon: './Assets/Image/icon2.png' },
@@ -29,12 +29,12 @@ const technologies = [
   { name: 'MongoDB', icon: './Assets/Image/icon25.png' },
   { name: 'Angular', icon: './Assets/Image/icon26.png' },
 ];
- 
+
 const centralIcons = [
   { name: 'Web Design', icon: './Assets/Image/web-techno.png' },
-  { name: 'Mobile App', icon:'./Assets/Image/mobile-techno.png' },
+  { name: 'Mobile App', icon: './Assets/Image/mobile-techno.png' },
 ];
- 
+
 function Technologies() {
   const containerRef = useRef(null);
   const animationFrameId = useRef(null);
@@ -101,15 +101,18 @@ function Technologies() {
 
       {/* Decorations */}
       <img
-        src={'./Assets/Image/techno-2.png'}
+        src={'./Assets/Image/techno-1.png'}
         alt="Tech Left"
-        className="absolute top-0 left-0 max-w-[150px] md:max-w-[300px] object-contain z-0 rotate-180"
+        className="absolute top-0 left-[-20px] max-w-[150px] md:max-w-[300px] object-contain z-0  animate-floatX"
       />
+
       <img
         src={'./Assets/Image/techno-2.png'}
         alt="Tech Right"
-        className="absolute bottom-0 right-0 max-w-[150px] md:max-w-[300px] object-contain z-0"
+        className="absolute bottom-0 right-0 max-w-[150px] md:max-w-[300px] object-contain z-0 animate-floatX delay-[2s]"
       />
+
+
 
       {/* Title */}
       <h1 className="text-2xl sm:text-3xl md:text-5xl font-extrabold text-[#8a49d6] mb-20 sm:mb-28 text-center uppercase tracking-wide">
@@ -171,5 +174,4 @@ function Technologies() {
 }
 
 export default Technologies;
- 
- 
+
